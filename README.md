@@ -1,5 +1,7 @@
 Projeto Realizado Para Testes - Seguindo o Padrão MVC utilizando PHP 8.1 + (PSR4) + Composer
-CRUD para os  produtos ,Sessoes , carrinho de compra etc.
+CRUD para os  produtos. 
+Sessoes para gerenciar o carrinho de compra com os produtos , verificação de CEP, utilizando o https://viacep.com.br/.
+Regra de negocios para calcular do frete e inserção do mesmo com valor superior ao da regra aplicada.
 
 Para iniciar o projeto necessitar do PHP 8.1 + Composer + MYSQL 
 Backup do banco dados disponivel. (e necessario somente a importação todos os scripts de criação e backup já esta no arquivo).
