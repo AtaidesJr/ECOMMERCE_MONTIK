@@ -1,0 +1,43 @@
+CREATE TABLE `ecommerce_montik`.`produtos`(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    preco DECIMAL(10,2),
+    created_at TIMESTAMP NULL,
+    updated_at TIMESTAMP NULL
+);
+
+CREATE TABLE `ecommerce_montik`.`variacoes`(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto_id INT,
+    nome VARCHAR(255),
+    preco DECIMAL(10,2),
+    FOREIGN KEY (produto_id) REFERENCES produtos(id)
+);
+
+CREATE TABLE `ecommerce_montik`.`estoques`(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto_id INT,
+    variacao_id INT NULL,
+    quantidade INT,
+    FOREIGN KEY (produto_id) REFERENCES produtos(id),
+    FOREIGN KEY (variacao_id) REFERENCES variacoes(id)
+);
+
+CREATE TABLE `ecommerce_montik`.`pedidos` (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    subtotal DECIMAL(10,2),
+    frete DECIMAL(10,2),
+    total DECIMAL(10,2),
+    cep VARCHAR(10),
+    created_at TIMESTAMP NULL
+);
+
+CREATE TABLE `ecommerce_montik`.`itens_pedido` (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pedido_id INT,
+    produto_id INT,
+    variacao_id INT NULL,
+    quantidade INT,
+    preco_unitario DECIMAL(10,2),
+    FOREIGN KEY (pedido_id) REFERENCES pedidos(id)
+);
