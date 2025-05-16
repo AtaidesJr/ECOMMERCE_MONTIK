@@ -1,7 +1,7 @@
 <div class="app-brand demo">
     <a href="/" class="app-brand-link">
         <span class="app-brand-logo demo">
-            <img src="/assets/img/avatars/tecnokor.png" width="80%" />
+            <img src="https://themewagon.github.io/cozastore/images/icons/logo-01.png" width="80%" />
         </span>
         <span class="app-brand-text demo menu-text fw-bolder ms-2"></span>
     </a>

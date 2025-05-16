@@ -7,12 +7,4 @@
         , Desenvolvido por
         <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">Ataides Jr</a>
     </div>
-    <div>
-        <a href="#" class="footer-link me-4" target="_blank">Inicio</a>
-        <a href="#" class="footer-link me-4">Apontamentos</a>
-
-        <a href="#" class="footer-link me-4">Cadastros</a>
-
-        <a href="https://github.com/themeselection/sneat-html-admin-template-free/issues" class="footer-link me-4">Sair</a>
-    </div>
 </div>

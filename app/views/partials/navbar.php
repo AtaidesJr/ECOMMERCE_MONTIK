@@ -44,13 +44,13 @@
                     <div class="dropdown-divider"></div>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="/admin/cadastrar">
+                    <a class="dropdown-item" href="#">
                         <i class="bx bx-user-plus me-2"></i>
                         <span class="align-middle">Criar Usuario</span>
                     </a>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="/admin/usuarios">
+                    <a class="dropdown-item" href="#">
                         <i class="bx bx-user-pin me-2"></i>
                         <span class="align-middle">Listar Usuarios</span>
                     </a>
@@ -59,7 +59,7 @@
                     <div class="dropdown-divider"></div>
                 </li>
                 <li>
-                    <a class="dropdown-item" href="/login">
+                    <a class="dropdown-item" href="#">
                         <i class="bx bx-power-off me-2 text-danger"></i>
                         <span class="align-middle">Sair</span>
                     </a>

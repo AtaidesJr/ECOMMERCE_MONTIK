@@ -57,7 +57,7 @@
                                                             </button>
                                                         </td>
                                                         <td>
-                                                            <button type="button" class="btn btn-info btn-sm" data-bs-toggle="modal" data-bs-target="#excluirModal-<?php echo $index ?>">
+                                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#excluirModal-<?php echo $index ?>">
                                                                 Excluir
                                                             </button>
                                                         </td>
