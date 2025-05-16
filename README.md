@@ -1,5 +1,5 @@
 Projeto Realizado Para Testes - Seguindo o Padrão MVC utilizando PHP 8.1 + (PSR4) + Composer
-CRUD para adição dos produtos , carrinho de compra etc.
+CRUD para os  produtos ,Sessoes , carrinho de compra etc.
 
 Para iniciar o projeto necessitar do PHP 8.1 + Composer + MYSQL 
 Backup do banco dados disponivel. (e necessario somente a importação todos os scripts de criação e backup já esta no arquivo).
